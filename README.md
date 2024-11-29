@@ -2,7 +2,7 @@
 
 ## Description
 
-This CP model was implements to solve the sports scheduling problem of minimizng the total travel time of the Ontario University Athletics Association (OUA) men’s basketball league in a round robin tournament.
+This CP model was implemented to solve the sports scheduling problem of minimizing the total travel time of the Ontario University Athletics Association (OUA) men’s basketball league in a round robin tournament.
 
 The CP program was formulated as follows: 
 
@@ -38,7 +38,7 @@ Program can be run on google colab for up to instances of 18 teams.
 Note: It does take longer as the instance size grows.
 
 ### 1.0 Dependencies
-The program uses CPlex's CP solver integrated wiht python. Intalling the following is required:
+The program uses CPlex's CP solver integrated wiht python. Installing the following is required:
 -  !pip install cplex
 -  !pip install docplex
 - !pip install ortools
@@ -60,7 +60,7 @@ Import the following libraries:
 Enter your filepath at : 
   - datafile = "your file path"
 
-Your file will be read and the followign extracted:
+Your file will be read and the following extracted:
 - Team = Teams {1,2..,18}
 - T =  Number of teams
 - W = Number of weeks
@@ -79,7 +79,7 @@ Your file will be read and the followign extracted:
 - Program run the program once steps 1.0 to 4.0 are compelted see step 6.0 for support
 
 ## Help
-- You may run into the issue of the code taking long to run for larger instances, this is due to the google colab being limtied to the CPlex public version
+- You may run into the issue of the code taking long to run for larger instances, this is due to the google colab being limited to the CPlex public version
 - Running the program using CPlex academic can solve this issue 
 
 ## Authors
