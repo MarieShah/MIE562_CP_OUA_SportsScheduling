@@ -1,4 +1,4 @@
-# CP Solver OUA Sports Scheduling 🏀
+# CP Solver OUA Sports Scheduling 
 
 ## Description
 
